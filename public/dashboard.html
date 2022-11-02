@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Kokoshari - Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+	<nav class="navbar navbar-expand-lg 
+	navbar-light bg-success">
+		<a class="navbar-brand" href="#">
+			<p style="font-size: 30px;">
+				Welcome, <span id="welcome"></span>
+			</p>
+		</a>
+		<button type="submit" id="logout" style="color: black; width: auto; margin-left:auto;"
+			class="rounded submit px-3">Logout</button>
+	</nav>
+
+	<div class="container my-3">
+		<h1>Take your Notes here</h1>
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">
+					Add a Note
+				</h5>
+				<div class="form-group">
+					<textarea class="form-control" id="addTxt" rows="3">
+		</textarea>
+				</div>
+				<button class="btn btn-primary" id="addBtn" style="background-color:green">
+					Add Note
+				</button>
+			</div>
+		</div>
+		<hr>
+		<h1>Your Notes</h1>
+		<hr>
+
+		<div id="notes" class="row container-fluid">
+		</div>
+	</div>
+
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/popper.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/main.js"></script>
+
+</body>
+
+</html>
