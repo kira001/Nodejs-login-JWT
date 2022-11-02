@@ -3,8 +3,10 @@
 
 ## DB configuration
 
-
-### DB name
+PARAMETER  | Value
+------------- | -------------
+DB_DATABASE  | db_test
+DB_PORT  |  3306
 
 
 ### table 1
@@ -31,6 +33,9 @@ CREATE TABLE `note` (
 
 
 ## Run Application
+```
+nodemon Server 
+```
 nodemon Server   
 
 ## Login
