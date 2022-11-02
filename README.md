@@ -36,7 +36,6 @@ CREATE TABLE `note` (
 ```
 nodemon Server 
 ```
-nodemon Server   
 
 ## Login
 ![Screenshot](screenshot1.png)
